@@ -11,8 +11,55 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "title": {
+    "main_title": {
       "type": "string"
+    },
+    "main_subtitle": {
+      "type": "text"
+    },
+    "main_banner": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "reservation_button": {
+      "type": "string"
+    },
+    "reservation_button_link": {
+      "type": "string"
+    },
+    "location_button": {
+      "type": "string"
+    },
+    "location_button_link": {
+      "type": "string"
+    },
+    "about_smallTitle": {
+      "type": "string"
+    },
+    "about_title": {
+      "type": "string"
+    },
+    "about_info": {
+      "type": "text"
+    },
+    "about_button": {
+      "type": "string"
+    },
+    "about_img": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
     }
   }
 }
